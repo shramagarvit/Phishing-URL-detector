@@ -60,7 +60,7 @@ st.markdown("""
         border-left-color: #388bfd;
     }
 </style>
-""", unsafe_allowed_allowed=True)
+""", unsafe_allow_html=True)
 
 # Application Header
 st.title("🛡️ AegisThreat AI")
@@ -155,4 +155,4 @@ else:
                     st.error(f"Analysis engine interrupted: {str(ex)}")
 
 st.markdown("---")
-st.markdown("<p style='text-align: center; color: #8b949e; font-size: 11px;'>© 2026 AegisThreat AI. ALL RIGHTS SECURED.</p>", unsafe_allowed_html=True)
+st.markdown("<p style='text-align: center; color: #8b949e; font-size: 11px;'>© 2026 AegisThreat AI. ALL RIGHTS SECURED.</p>", unsafe_allow_html=True)
